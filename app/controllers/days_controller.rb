@@ -1,7 +1,7 @@
 class DaysController < ApplicationController
 
   def show
-    render json: Day.find(params[:id])
+    render :show
   end
 
 end
